@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Recipe</title>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="add-recipe.html">Add Recipe</a></li>
+      <li><a href="recipe-list.html">Recipe List</a></li>
+    </ul>
+  </nav>
+
+  <!-- Add Recipe Form -->
+  <h1>if you want you can also add your own recipes and help others with cookin!!</h1>
+  <form>
+    <label for="recipeName">Recipe Name:</label>
+    <input type="text" id="recipeName" name="recipeName"><br><br>
+
+    <label for="ingredients">Ingredients:</label><br>
+    <textarea id="ingredients" name="ingredients" rows="4" cols="40"></textarea><br><br>
+
+    <label for="instructions">Cooking Instructions:</label><br>
+    <textarea id="instructions" name="instructions" rows="4" cols="40"></textarea><br><br>
+
+
+
+    <label for="category">Recipe Category:</label>
+    <select id="category" name="category">
+      <option value="desserts">Desserts</option>
+      <option value="appetizers">drinks</option>
+      <option value="main">Main meals</option>
+      
+    </select><br><br>
+
+    <button type="submit">Add Recipe</button>
+  </form>
+
+</body>
+</html>
